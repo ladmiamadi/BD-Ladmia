@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #D92027;  
+}
+
+.btn-panier:active {
+    border: 1px solid transparent;
+    background: white;
+}
+
+.menu-drop {
+    left:200px
+}
+
+.menu-colonne-droit a {
+  color: #FFD8A6;
+  font-size: 16px;
+}
+
+.dropdown-menu {
+    background-color: #D92027;
+    min-width:300px ;
+    opacity: 0.8;
+    top: 51px;
+}
+
+.jaune a {
+    color: #FFD8A6;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
+    color: #FFD8A6;
+}
+
+.dropdown-menu a:focus {
+    background-color: transparent;
+    color: #FFD8A6;
+}
+
+#une {
+    background-color: #FC8210;
+}
+
+.card {
+    border:solid 1px #007892;
+    border-radius: 20px;
+}
+
+.card-list {
+    height: 370px;
+}
+
+.card-image {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 100%;
+}
+
+aside, .details {
+    background: #FFD8A6;
+}
+
+.filtre {
+    background: #FC8210;
+    color: #FFD8A6 ;
+}
+
+.cont {
+    min-height: 600px;
+}
+
+.bd-details {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.details-title {
+    font-size: 25px;
+    color: #007892;
+    margin-top: 30px;
+}
+
+#delete-image {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#panier:hover, #retour:hover {
+    padding: 5px;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.card-footer-list {
+    background-color: #ffff;
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 50px;
+}
+
+.price {
+    color: #D92027;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item, form {
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+form {
+    padding: 30px;
+}
+
+.home {
+    min-height: 600px;
+}
+
+.detail-text {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#retour {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .card-image {
+        width: auto;
+        height: 150px;
+        border-radius: 20px;
+        border-bottom: 1px solid #007892;
+    }
+
+    .my-col{
+        height: 200px;
+    }
+
+}
